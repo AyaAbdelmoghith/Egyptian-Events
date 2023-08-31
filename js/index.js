@@ -9,7 +9,7 @@ $(".close-icon span").click(function () {
 
 // Accordion
 $(".detail p").eq(0).slideDown(500);
-$(".detail h3").click(function (e) { 
+$(".detail h3").click(function () { 
   $('.detail p').not($(this).next()).slideUp(500);
     $(this).next().slideToggle(500);    
 });
