@@ -33,7 +33,9 @@ header {
 h1 {
     font-size: 4.6rem;
 }
-
+.main-content{
+    height: 77%;
+}
 .main-content p {
     font-size: 1.9rem;
 }
