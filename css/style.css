@@ -126,3 +126,7 @@ textarea{
 .btn-style{
     border: 0;
 }
+.num{
+    background-color: rgb(189, 118, 248);
+    font-weight: 700;
+}
