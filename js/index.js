@@ -4,7 +4,10 @@ $(".open-bars").click(function () {
 });
 $(".close-icon span").click(function () { 
     $('nav').animate({width:'0%'},1500);
-
+});
+// Close nav once clicking on links
+$("nav li a").click(function () { 
+    $('nav').animate({width:'0%'},1000);
 });
 
 // Accordion
